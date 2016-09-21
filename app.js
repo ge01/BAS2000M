@@ -19,11 +19,23 @@ function mutation(arr) {
 
 // Input Test Data
 console.log(mutation(["hello", "hey"]));
-console.log(mutation(["Mary", "Aarmy"]));
-console.log(mutation(["Alien", "line"]));
-console.log(mutation(["floor", "for"]));
 console.log(mutation(["hello", "Hello"]));
 console.log(mutation(["zyxwvutsrqponmlkjihgfedcba", "qrstu"]));
 console.log(mutation(["Mary", "Army"]));
+console.log(mutation(["Mary", "Aarmy"]));
+console.log(mutation(["Alien", "line"]));
+console.log(mutation(["floor", "for"]));
 console.log(mutation(["hello", "neo"]));
 console.log(mutation(["voodoo", "no"]));
+
+// Output Test Data
+//false
+//true
+//true
+//true
+//true
+//true
+//true
+//false
+//false
+//false
