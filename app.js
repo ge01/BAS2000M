@@ -6,12 +6,12 @@
 function mutation(arr) {
   var lowerArr1 = arr[1].toLowerCase();
   var lowerArr0 = arr[0].toLowerCase();
-  for (i=0; i<lowerArr1.lenght; i++) {
-    if(lowerArr0.indexOf(lowerArr1[i]) < 0)
+  for (i=0;i<lowerArr1.length;i++) {
+    if (lowerArr0.indexOf(lowerArr1[i]) < 0)
       return false;
-    }
-    return true;
   }
+  return true;
+ }
 
 console.log(mutation(["hello", "hey"]));
 console.log(mutation(["Mary", "Aarmy"]));
